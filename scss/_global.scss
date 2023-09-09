@@ -1,0 +1,45 @@
+body {
+	font-family: "Hanken Grotesk";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 18px;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+	font-family: "Hanken Grotesk";
+}

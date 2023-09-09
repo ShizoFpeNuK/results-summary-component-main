@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="scss/main.css"
+		/>
+
+		<title>Frontend Mentor | Results summary component</title>
+	</head>
+
+	<body>
+		<div class="result">
+			<div class="result_left">
+				<h2 class="result_left_title">Your Result</h2>
+				<div class="result_left_circle">
+					<div class="result_left_circle_score">76</div>
+					<div class="result_left_circle_text">of 100</div>
+				</div>
+				<div class="result_left_text">Great</div>
+				<p class="result_left_subtext">
+					You scored higher than 65% of the people who have taken these tests.
+				</p>
+			</div>
+      
+			<div class="result_right">
+				<h2 class="result_right_title">Summary</h2>
+				<div class="result_right_box_wrapper">
+					<div
+						class="result_right_box"
+						style="background-color: hsla(0, 100%, 67%, 10%)"
+					>
+						<div class="result_right_box_left">
+							<img src="/assets/images/icon-reaction.svg" />
+							<div
+								class="result_right_box_title"
+								style="color: var(--light-red)"
+							>
+								Reaction
+							</div>
+						</div>
+						<div class="result_right_box_score">80 <span>/ 100</span></div>
+					</div>
+
+					<div
+						class="result_right_box"
+						style="background-color: hsla(39, 100%, 56%, 10%)"
+					>
+						<div class="result_right_box_left">
+							<img src="/assets/images/icon-memory.svg" />
+							<div
+								class="result_right_box_title"
+								style="color: var(--orange-yellow)"
+							>
+								Memory
+							</div>
+						</div>
+						<div class="result_right_box_score">92 <span>/ 100</span></div>
+					</div>
+
+					<div
+						class="result_right_box"
+						style="background-color: hsla(166, 100%, 37%, 10%)"
+					>
+						<div class="result_right_box_left">
+							<img src="/assets/images/icon-verbal.svg" />
+							<div
+								class="result_right_box_title"
+								style="color: var(--green-teal)"
+							>
+								Verbal
+							</div>
+						</div>
+						<div class="result_right_box_score">61 <span>/ 100</span></div>
+					</div>
+
+					<div
+						class="result_right_box"
+						style="background-color: hsla(234, 85%, 45%, 10%)"
+					>
+						<div class="result_right_box_left">
+							<img src="/assets/images/icon-visual.svg" />
+							<div
+								class="result_right_box_title"
+								style="color: var(--cobalt-blue)"
+							>
+								Visual
+							</div>
+						</div>
+						<div class="result_right_box_score">72 <span>/ 100</span></div>
+					</div>
+				</div>
+
+				<button class="result_right_button">Continue</button>
+			</div>
+		</div>
+	</body>
+</html>
